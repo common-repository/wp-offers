@@ -1,0 +1,39 @@
+.options-kit-header-inner {
+	background: -webkit-gradient(linear, left top, right top, from(#ec3a87), to(#ff1c5a));
+	background: linear-gradient(90deg, #ec3a87 0%, #ff1c5a 100%);
+}
+
+.options-kit-wrapper .ok-input input[type="text"]:focus,
+.options-kit-wrapper .ok-input input[type="email"]:focus,
+.options-kit-wrapper .ok-input input[type="tel"]:focus,
+.options-kit-wrapper .ok-input input[type="number"]:focus,
+.options-kit-wrapper .ok-input textarea:focus,
+.options-kit-wrapper .ok-input select:focus {
+    border-color: #F62A70;
+    -webkit-box-shadow: 0 0 0 2px rgba(246, 42, 112, 0.3);
+    box-shadow: 0 0 0 2px rgba(246, 42, 112, 0.3);
+}
+
+.options-kit-save {
+    background-color: #F62A70;
+}
+
+.options-kit-main-nav ul li.is-active a {
+    color: #F62A70;
+}
+
+.options-kit-wrapper .ok-input .components-form-toggle.is-checked .components-form-toggle__track {
+    background-color: #F62A70;
+}
+
+.ok-title-input-wrap {
+    border-bottom-color: rgba(246, 42, 112, 0.1);
+}
+
+.ok-title-input-wrap .ok-title-input {
+    color: #F62A70;
+}
+
+.ok-title-input-wrap p {
+    color: rgba(246, 42, 112, 0.7);
+}

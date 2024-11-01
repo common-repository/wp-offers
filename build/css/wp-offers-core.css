@@ -1,0 +1,37 @@
+/*!
+ * WP Offers v1.2.0 - https://www.kitthemes.com/wp-offers
+ * KitThemes - https://www.kitthemes.com/
+ * (c) 2020 - 2022 KitThemes
+ * GPLv2 or later
+ */
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/core/components/preloader/style.scss ***!
+  \***********************************************************************************************************************************/
+.wpo-preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .wpo-preloader svg {
+    max-width: 200px; }
+    .wpo-preloader svg path {
+      stroke-dasharray: 400;
+      stroke-dashoffset: 400;
+      stroke: #F62A70;
+      animation: draw 3s infinite;
+      fill: rgba(246, 42, 112, 0); }
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 400;
+    fill: rgba(246, 42, 112, 0); }
+  50% {
+    fill: rgba(246, 42, 112, 0); }
+  70% {
+    stroke-dashoffset: 0;
+    fill: #f62a70; }
+  100% {
+    stroke-dashoffset: 400;
+    fill: rgba(246, 42, 112, 0); } }
+
+
+/*# sourceMappingURL=wp-offers-core.css.map*/

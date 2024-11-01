@@ -1,0 +1,21 @@
+.post-type-wpo_coupon .column-ID {
+	width: 45px;
+}
+
+.post-type-wpo_coupon .column-shortcode input {
+	width: 100%;
+}
+
+.post-type-wpo_coupon .column-coupon_type,
+.post-type-wpo_coupon .column-expires {
+	width: 10%;
+}
+.post-type-wpo_coupon .column-shortcode {
+	width: 12%;
+}
+.post-type-wpo_coupon .column-taxonomy-wpo-category {
+	width: 15%;
+}
+.post-type-wpo_coupon .column-taxonomy-wpo-store {
+	width: 10%;
+}
